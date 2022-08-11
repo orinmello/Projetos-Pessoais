@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+:root {
+    --primary: #000;
+    --secuntary: #009BDB;
+    --tercetary: white;
+    --quartenary: #323335; 
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: var(--primary);
+}
+.resumo {
+    width: 800px;
+	background: var(--tercetary);
+	margin: 25px auto;
+	display: flex;
+}
+.esquerda {
+    background: var(--quartenary);
+	width: 350px;
+	padding: 0 20px;
+    margin-left: 15px;
+}
+.direita {
+    width: calc(100% - 350px);
+}
+.esquerda .foto {
+    text-align: center;
+	padding: 20px 0;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.esquerda .foto img {
+    width: 230px;
+	border-radius: 130px;
+    border: 3px solid var(--secuntary);
+}
+.pb {
+    padding-bottom: 25px;
+}
+.esquerda .titulo {
+    font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	padding-bottom: 10px;
+	color: var(--secuntary);
+	position: relative;
+	text-align: left;
+	margin-bottom: 15px;
+    margin-top: 20px;
+}
+.esquerda .paragrafo {
+    color: var(--tercetary);
+    font-weight: 300;
+}
+.nome {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+.direita .titulo {
+    font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	padding-bottom: 10px;
+	color: var(--secuntary);
+	position: relative;
+	text-align: left;
+	margin-bottom: 15px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.direita .objetivo .titulo {
+    font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	padding-bottom: 10px;
+	color: var(--secuntary);
+	position: relative;
+	text-align: left;
+	margin-bottom: 15px;
+    margin-top: 85px;
+    margin-left: 20px;
+}
+.direita .paragrafo {
+    color: var(--primary);
+    font-weight: 300;
+    margin-left: 20px;
+}
+
+
+
+
+
+
